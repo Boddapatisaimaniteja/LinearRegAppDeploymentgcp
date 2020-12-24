@@ -1,0 +1,9 @@
+Step1:write the code and get the pickle file 
+step2:create a .yaml file with required scaling and instances
+step2:initialise the git and commit the add the files to git and commit using gitbash
+step3:create a github repo and push the files of the project to repo
+step4:go to GCP and click on "Activate cloud shell"
+step5:clone the git hub repo in cloub shell 
+step6:Run this
+         gcloud config project value(value is project id)
+         gcloud app deploy
